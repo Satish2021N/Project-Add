@@ -9,7 +9,7 @@ const NoProjectSelected = function () {
     <>
       <div className="flex flex-col gap-2 items-center w-full h-full justify-center">
         <img src={image} alt="" className="w-32 h-32" />
-        <h1 className="text-xl font-bold"> No Project Selected</h1>
+        <h1 className="text-xl font-bold text-red-900"> No Project Selected</h1>
         <div className="flex flex-col items-center justify-start gap-2">
           <p className="font-semibold">Please Select a Project to Continue</p>
           <Button onClick={onAddProject}>+ Add Project</Button>
